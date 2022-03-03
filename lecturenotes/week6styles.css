@@ -1,0 +1,10 @@
+body{
+    background-color:antiquewhite;
+}
+
+p {color:darkblue;}
+
+.boldred{
+    color:darkblue;
+    font-weight: bold;
+}

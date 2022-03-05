@@ -3,3 +3,7 @@ body {font-family: Georgia, 'Times New Roman', Times, serif;}
 grouped selectors h1, h2 { color: dodgerblue;}
 
 .evenrow {background-color: royalblue;}
+
+h1 {font-size: 16 em;}
+
+h2 {font-size: 12 em;}

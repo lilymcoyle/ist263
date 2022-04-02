@@ -14,11 +14,14 @@
             width: 15%;
         }
         .verbal {width: 15%;}
-        .socialmedia {width: 15;}
+        .socialmedia {width: 15%;}
         .python {width: 15%;}
         .microsoft {width: 15%;}
-        .flex2 {display: flex;}
-        .sidebar {background-color: bisque; border-radius: 1em;}
+        .flex {
+            display: flex;
+            float: left;
+        }
+        .flexbox2 {background-color: cornsilk; border-radius: 1em;}
         .additionalskills {
             display: flex;
             padding: 20px;
@@ -29,42 +32,47 @@
 </head>
 
 <body>
+    <div class="nav">
+        <nav>
+            <a href=https://lilymcoyle.github.io/ist263/lab07/.> Home</a>
+            <a href=https://lilymcoyle.github.io/ist263/lab07/contact.html> | Skills</a>
+            <a href=https://lilymcoyle.github.io/ist263/lab07/skills.html> | Contact</a>
+        </nav>
+    </div>
 
     <div class="heading">
-        <div class="nav">
-            <nav>
-                <a href=https://lilymcoyle.github.io/ist263/lab07/.> Home</a>
-                <a href=https://lilymcoyle.github.io/ist263/lab07/contact.html> | Skills</a>
-                <a href=https://lilymcoyle.github.io/ist263/lab07/skills.html> | Contact</a>
-            </nav>
-        </div>
-    <h1>Lily's Cool Skills</h1>
+    <h1>Lily's Really Cool Skills</h1>
     </div>
 
     <div class="secondheading">
     <p>Below I will be introducing the really cool skills I have learned and perfected since entering college.</p>
     </div>
 
-    <div class="flex2">
-        <div><img src="../images/writtencom.png" alt="writtencommunication" width="100">Written</div>
-        <div><img src="../images/verbalcom.png" alt="verbalcommunication" width="100">Verbal</div>
-        <div><img src="../images/socialmedia.png" alt="socialmedia" width="100">Social Media</div>
-        <div><img src="../images/python.png" alt="pythoncoding" width="100">Python</div>
-        <div><img src="../images/microsoft.png" alt="microsoftsuite" width="100">Microsoft</div>
+    <div class="flex">
+        <div><img src="../images/writtencom.png" alt="writtencommunication" width="100"><br>Written</div>
+        <div><img src="../images/verbalcom.png" alt="verbalcommunication" width="100"><br>Verbal</div>
+        <div><img src="../images/socialmedia.png" alt="socialmedia" width="100"><br>Media</div>
+        <div><img src="../images/python.png" alt="pythoncoding" width="100"><br>Python</div>
+        <div><img src="../images/microsoft.png" alt="microsoftsuite" width="100"><br>Microsoft</div>
     
-        <aside>
-        
-        <div class="sidebar">
-            
-        <h2>Additional Skills</h2>
-    <div class="additionalskills">
-        <p> R <br>
-            HTML <br>
-            Google Suite <br>
-        </p>
+    <aside>
 
+        <div class="flexbox2">
+    
+        <div class="heading">
+        <h2>Additional Skills</h2>
         </div>
-    </aside>
+        <div class="additionalskills">
+            <p> R <br>
+                HTML <br>
+                Google Suite <br>
+                Customer Service <br>
+                Organizational Skills <br>
+            </p>
+        </div>
+        
+        </div>
+    
     </div>
 
 </body>

@@ -19,13 +19,16 @@
         .microsoft {width: 15%;}
         .flex {
             display: flex;
-            float: left;
+            justify-content: space-around;
         }
-        .flexbox2 {background-color: cornsilk; border-radius: 1em;}
-        .additionalskills {
-            display: flex;
+        .flexbox2 {background-color: cornsilk; border-radius: 1em; flex: 1;
             padding: 20px;
-            margin: 20px;
+            margin: 20px;}
+        .small {
+            display: flex;
+            justify-content: space-between;
+            flex: 3;
+            margin-top: 20px;
         }
     </style>
     <link rel="stylesheet" href="styles.css">
@@ -49,27 +52,27 @@
     </div>
 
     <div class="flex">
+        <div class="small">
         <div><img src="../images/writtencom.png" alt="writtencommunication" width="100"><br>Written</div>
         <div><img src="../images/verbalcom.png" alt="verbalcommunication" width="100"><br>Verbal</div>
         <div><img src="../images/socialmedia.png" alt="socialmedia" width="100"><br>Media</div>
         <div><img src="../images/python.png" alt="pythoncoding" width="100"><br>Python</div>
         <div><img src="../images/microsoft.png" alt="microsoftsuite" width="100"><br>Microsoft</div>
-    
-    <aside>
+        </div>
 
-        <div class="flexbox2">
+    <aside class="flexbox2">
+
+        <div>
     
         <div class="heading">
         <h2>Additional Skills</h2>
         </div>
-        <div class="additionalskills">
             <p> R <br>
                 HTML <br>
                 Google Suite <br>
                 Customer Service <br>
                 Organizational Skills <br>
             </p>
-        </div>
     </aside>
         </div>
     

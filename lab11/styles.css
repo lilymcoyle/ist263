@@ -5,13 +5,13 @@ body{
     font-size: 1em;
 }
 h1, h2, h3{
-    color: #e78dbf;
+    color: #ff5050;
 }
 a:link {
     color: #063850;
 }
 nav{
-    background-color: #e78dbf;
+    background-color: #ff5050;
     padding: 10px;
     margin-bottom: 30px;
 }

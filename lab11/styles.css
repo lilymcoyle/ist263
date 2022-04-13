@@ -8,7 +8,7 @@ h1, h2, h3{
     color: #ff5050;
 }
 a:link {
-    color: #063850;
+    color: #000000;
 }
 nav{
     background-color: #ff5050;
@@ -16,7 +16,7 @@ nav{
     margin-bottom: 30px;
 }
 nav a{
-    color: #2c91c0;
+    color: #000000;
 }
 nav a:hover{
     background-color: #fff4fe ;

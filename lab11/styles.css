@@ -35,3 +35,15 @@ nav a:hover{
         display: none;
     }
 }
+
+#skip {
+    position: absolute;
+    left: -62.4375em;
+    background-color: white;
+    border: 0.0625em solid black;
+}
+
+#skip:focus {
+    position: absolute;
+    left: .625em;
+}

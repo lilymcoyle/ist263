@@ -1,0 +1,39 @@
+body{
+    color: #000000;
+    background-color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+h1, h2, h3{
+    color: #ff5050;
+}
+a:link {
+    color: #000000;
+}
+nav{
+    background-color: #ff5050;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a{
+    color: #000000;
+}
+nav a:hover{
+    background-color: #fff4fe ;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        max-width: 100px;
+        margin-top: 10px;
+    }
+    nav span {
+        display: none;
+    }
+}
+
+h1 {
+    text-align: center;
+    border: 3px solid black;
+}

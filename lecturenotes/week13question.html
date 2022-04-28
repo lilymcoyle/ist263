@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+    <script>
+        function Right () {
+            document.getElementById("rightanswer").innerHTML = "You are right! Dogs are cuter."
+            document.getElementById("rightanswer").style.getPropertyValue("color")
+        }
+        function Wrong () {
+            document.getElementById("wronganswer").innerHTML = "Wrong! How could you say that?"
+        }
+    </script>
+</head>
+<body>
+    <p>Dogs are cuter than cats.</p>
+    <p id="right answer" onclick="Right();">true</p>
+    <p id="wrong answer" onclick="Wrong();">false</p>
+</body>
+</html>
